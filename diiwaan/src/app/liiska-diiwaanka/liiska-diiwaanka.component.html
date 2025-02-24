@@ -1,1 +1,54 @@
-<p>liiska-diiwaanka works!</p>
+<p class="title">liiska-diiwaanka wuu shaqaynayaa!</p>
+<div  class="row">
+     <div class="col-4">
+        <div class="container mt-3">
+    
+            <form >
+                <div class="mb-3 mt-3">
+                    <label for="sumadda">sumadda</label>
+                    <input type="test" class="form-control" id="name" placeholder="sumadda" name="summadda">
+                  </div>
+              
+              <div class="mb-3">
+                <label for="magaca">magaca</label>
+                <input type="text" class="form-control" id="magaca" placeholder="magaca" name="magaca">
+              </div>
+    
+              <div class="mb-3 mt-3">
+                <label for="adreeska">adreeska</label>
+                <input type="email" class="form-control" id="adreeska" placeholder="adreeska" name="adreeska">
+              </div>
+              <div class="mb-3 mt-3">
+                <label for="shaqada">shaqada</label>
+                <input type="text" class="form-control" id="shaqada" placeholder="shaqada" name="shaqada">
+              </div>
+              
+              <button type="submit" class="btn btn-primary">kudarso-diiwaanka</button>
+          <span class="delete-user">   <button type="submit" class="btn btn-warning m-3">kaTir-diiwaanka</button></span>
+            </form>
+          </div>
+          </div> 
+    
+    
+    <div class="col-8">
+     <table class="table table-hover">
+        <thead>
+          <th>Sumadda</th>
+          <th>Magaca</th>
+          <th>Adreeska</th>
+          <th>SHaqada</th>
+          
+        </thead>
+        <tbody>
+          @for (item of items; track item.sumadda){
+          <tr>
+            <td>{{ item.sumadda}}</td>
+            <td>{{ item.magaca}}</td>
+            <td>{{ item.adreeska}}</td>
+            <td>{{item.shaqada}}</td>
+           }
+        </tbody>
+      </table> 
+    </div>
+      
+    </div>  

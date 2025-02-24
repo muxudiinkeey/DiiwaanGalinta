@@ -1,6 +1,6 @@
-export interface Diiwaan {
+export interface diiwaan {
 
-    summadda: number;
+    sumadda: number;
     magaca : string;
     adreeska: string;
     shaqada : string;
