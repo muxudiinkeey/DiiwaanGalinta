@@ -1,8 +1,12 @@
-<p class="title">liiska-diiwaanka wuu shaqaynayaa!</p>
-<div  class="row">
-     <div class="col-4">
-        <div class="container mt-3">
+<!-- <p class="title">liiska-diiwaanka wuu shaqaynayaa!</p>
+
+  
+     
+        
     
+      <div class="container">
+        <div  class="card">
+          <div class="col-4">
             <form >
                 <div class="mb-3 mt-3">
                     <label for="sumadda">sumadda</label>
@@ -27,9 +31,14 @@
           <span class="delete-user">   <button type="submit" class="btn btn-warning m-3">kaTir-diiwaanka</button></span>
             </form>
           </div>
-          </div> 
+        </div>
     
+      </div>
+          
     
+
+<div class="container">
+  <div class="card">
     <div class="col-8">
      <table class="table table-hover">
         <thead>
@@ -50,5 +59,113 @@
         </tbody>
       </table> 
     </div>
-      
-    </div>  
+  </div>
+</div>
+        
+        
+  
+
+
+     -->
+
+     
+  <div class="row">
+    <div class="col-8">
+     <div class="card">
+       <div class="card-header bg-light text-white">
+        
+   <div class="card-body">
+    <div class="row">
+     <div class="col-12">
+   
+       <table class="table table-hover">
+     
+         <thead>
+   
+           <th>Summadaa</th>
+           <th>Magaca</th>
+           <th>Adreeska</th>
+           <th>Shaqada</th>
+           
+           
+           
+         </thead>
+
+         
+         <tbody>
+           @for (item of items; track item.sumadda){
+           <tr>
+            <td>{{ item.sumadda}}</td>
+            <td>{{ item.magaca}}</td>
+            <td>{{ item.adreeska}}</td>
+            <td>{{item.shaqada}}</td>
+             <td>
+            
+             <td>
+               <button class="btn btn-small btn-info">kudar-Diiwaanka</button>
+             </td>
+             <td>
+            
+               <button class="btn btn-small  btn-warning" style="margin-left: 10px;">katir-Diiwaanka</button>
+               
+          
+            
+             </td>
+            }
+         </tbody>
+       </table> 
+     </div>
+   
+    </div>
+   </div>
+   
+       </div>
+   
+     </div>
+   
+    </div>
+    <div class="col-4">
+     <div class="card">
+       <div class="card-header bg-light text-white">
+        <h5>Diiwaan Galin</h5>
+   
+       </div>
+   <div class="card-body">
+   <div class="row">
+     <div class="col-4">
+   <label for="">summadda</label>
+   <input type="text" class="form-control">
+     </div>
+     <div class="col-8">
+   <label for="">magaca</label>
+   <input type="text" class="form-control">
+     </div>
+     <div class="col-12">
+   <label for="">adreeska</label>
+   <input type="text" class="form-control">
+     </div>
+     <div class="col-12">
+   <label for="">shaqada</label>
+   <input type="text" class="form-control">
+     </div>
+   
+   </div>
+   
+   <div class="row pt-2">
+     <div class="col-6 text-center">
+   <button class="btn btn-secondary">tir-tir</button>
+     </div>
+   
+     <div class="col-6 text-center">
+       <button class="btn btn-secondary">xarayso</button>
+     </div>
+   
+    </div>
+   </div>
+   
+     </div>
+   
+    </div>
+   
+    
+     </div>        

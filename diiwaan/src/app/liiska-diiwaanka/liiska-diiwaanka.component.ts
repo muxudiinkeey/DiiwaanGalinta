@@ -11,7 +11,7 @@ import { diiwaan } from '../diiwaan';
 })
 export class LiiskaDiiwaankaComponent implements OnInit {
   
- diiwaanka =[];
+ //diiwaanka =[];
 items : diiwaan[]= []
   mareentaService = inject(MareentaService )
 //diiwaanka: any;
