@@ -10,7 +10,7 @@ import { diiwaanka } from '../diiwaanka';
   styleUrl: './liiska-diiwaanka.component.css'
 })
 export class LiiskaDiiwaankaComponent implements OnInit {
-  
+  pageTitle = 'Liiska Diiwaanka '; 
  //diiwaanka =[];
 diiwaanada : diiwaanka[]= []
   mareentaService = inject(MareentaService )
