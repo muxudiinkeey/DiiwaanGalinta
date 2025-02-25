@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { MareentaService } from './mareenta.service';
-import { diiwaan } from '../diiwaan';
+import { diiwaanka } from '../diiwaanka';
 
 @Component({
   selector: 'app-liiska-diiwaanka',
@@ -12,7 +12,7 @@ import { diiwaan } from '../diiwaan';
 export class LiiskaDiiwaankaComponent implements OnInit {
   
  //diiwaanka =[];
-items : diiwaan[]= []
+diiwaanada : diiwaanka[]= []
   mareentaService = inject(MareentaService )
 //diiwaanka: any;
 
@@ -22,8 +22,8 @@ items : diiwaan[]= []
   }
 
   getLiiskaDiiwaanka(){
-    return this.mareentaService.getdiiwaanka().subscribe((diiwaan)=> {
-    this.items= diiwaan;
+    return this.mareentaService.getdiiwaanka().subscribe((diiwaanka)=> {
+    this.diiwaanada= diiwaanka;
     })
   }
 

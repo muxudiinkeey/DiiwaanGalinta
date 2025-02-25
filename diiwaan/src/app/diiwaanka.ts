@@ -1,4 +1,4 @@
-export interface diiwaan {
+export interface diiwaanka {
 
     sumadda: number;
     magaca : string;

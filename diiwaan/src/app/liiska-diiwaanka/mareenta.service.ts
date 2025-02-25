@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { diiwaan} from '../diiwaan';
+import { diiwaanka} from '../diiwaanka';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
@@ -12,10 +12,10 @@ export class MareentaService {
   private url = 'http://localhost:3000/diiwaanka';
 
 
-  items : diiwaan[]= [];
+  diiwaanada : diiwaanka[]= [];
 
   getdiiwaanka(){
-    return this.http.get<diiwaan[]>(this.url);
+    return this.http.get<diiwaanka[]>(this.url);
   }
   
 }
