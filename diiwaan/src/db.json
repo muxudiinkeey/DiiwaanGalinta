@@ -22,7 +22,7 @@
       "sumadda": 400,
       "magaca": "Faadumo",
       "adreeska": "XamarWayne",
-      "shaqada": "darawal"
+      "shaqada": "dahable"
     },
     {
       "sumadda": 500,
@@ -33,8 +33,33 @@
     {
       "sumadda": 600,
       "magaca": "muuse",
-      "adreeska": "shingaani",
+      "adreeska": "dharkeenleey",
       "shaqada": "kawaanle"
+    },
+    {
+      "sumadda": 700,
+      "magaca": "faarax",
+      "adreeska": "shingaani",
+      "shaqada": "xarqaanle"
+    },
+    {
+      "sumadda": 800,
+      "magaca": "faarax",
+      "adreeska": "wardhiigleey",
+      "shaqada": "xarqaanle"
+    },
+    {
+      "sumadda": 900,
+      "magaca": "xuseen",
+      "adreeska": "kaaraan",
+      "shaqada": "xarqaanle"
+    },
+  
+    {
+      "sumadda": 1000,
+      "magaca": "daahir",
+      "adreeska": "boondheere",
+      "shaqada": "xarqaanle"
     }
   ]
 }
