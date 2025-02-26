@@ -14,7 +14,7 @@ export class MareentaService {
 
   diiwaanada : diiwaanka[]= [];
 
-  getdiiwaanka(){
+  getdiiwaankoodhan(){
     return this.http.get<diiwaanka[]>(this.url);
   }
   
