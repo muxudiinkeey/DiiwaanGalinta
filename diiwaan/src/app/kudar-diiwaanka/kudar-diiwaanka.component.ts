@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { diiwaanka } from '../diiwaanka';
+import { Idiiwaanka } from '../diiwaanka';
 import { MareentaService } from '../liiska-diiwaanka/mareenta.service';
 
 @Component({
@@ -12,7 +12,7 @@ export class KudarDiiwaankaComponent {
   pageTitle = 'Ku Dar   Diiwaanka'
  
  //diiwaanka =[];
-diiwaanada : diiwaanka[]= []
+diiwaanada : Idiiwaanka[]= []
   mareentaService = inject(MareentaService )
 
 //diiwaanka: any;
@@ -23,8 +23,8 @@ diiwaanada : diiwaanka[]= []
   }
 
   getLiiskaDiiwaanka(){
-    return this.mareentaService.getdiiwaankoodhan().subscribe((diiwaanka)=> {
-    this.diiwaanada= diiwaanka;
+    return this.mareentaService.getdiiwaankoodhan().subscribe((Idiiwaanka)=> {
+    this.diiwaanada= Idiiwaanka;
     })
   }
 
