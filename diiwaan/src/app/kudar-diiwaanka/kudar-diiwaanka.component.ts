@@ -9,23 +9,5 @@ import { MareentaService } from '../liiska-diiwaanka/mareenta.service';
   styleUrl: './kudar-diiwaanka.component.css'
 })
 export class KudarDiiwaankaComponent {
-  pageTitle = 'Ku Dar   Diiwaanka'
- 
- //diiwaanka =[];
-diiwaanada : Idiiwaanka[]= []
-  mareentaService = inject(MareentaService )
-
-//diiwaanka: any;
-
-
-  ngOnInit(): void {
-      this.getLiiskaDiiwaanka();
-  }
-
-  getLiiskaDiiwaanka(){
-    return this.mareentaService.getdiiwaankoodhan().subscribe((Idiiwaanka)=> {
-    this.diiwaanada= Idiiwaanka;
-    })
-  }
-
+  
 }
