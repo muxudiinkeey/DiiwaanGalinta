@@ -22,7 +22,7 @@ diiwaanada : Idiiwaanka[]= []
   }
 
   getLiiskaDiiwaanka(){
-    return this.mareentaService.getdiiwaankoodhan().subscribe((Idiiwaanka)=> {
+    return this.mareentaService.getDiiwaankoodhan().subscribe((Idiiwaanka)=> {
     this.diiwaanada= Idiiwaanka;
     })
   }

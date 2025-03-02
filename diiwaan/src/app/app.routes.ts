@@ -5,7 +5,7 @@ import { WaxkabadalDiiwaankaComponent } from './waxkabadal-diiwaanka/waxkabadal-
 
 export const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'liikaDiiwaanka' },
-    { path: 'liiskaDiiwaanka', component: LiiskaDiiwaankaComponent },
+    { path: 'liiskaDiiwaanka/:sumadda', component: LiiskaDiiwaankaComponent },
     { path: 'kudarDiiwaanka', component:KudarDiiwaankaComponent },
     { path: 'waxkabadalDiiwaanka', component: WaxkabadalDiiwaankaComponent},
     
