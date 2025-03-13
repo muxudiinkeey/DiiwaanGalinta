@@ -12,9 +12,7 @@ export class MareentaService {
   private url = 'http://localhost:3000/diiwaanka';
 
 
-  diiwaanada : Idiiwaanka[]= [];
-
-  getDiiwaankoodhan(){
+getDiiwaankoodhan(){
     return this.http.get<Idiiwaanka[]>(this.url);
   }
   getHalDiiwaan(id: number){
