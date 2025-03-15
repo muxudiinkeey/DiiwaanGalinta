@@ -21,7 +21,7 @@ getDiiwaankoodhan(){
 
   deleteDiiwaan(sumadda: number){
   // return this.http.delete('this.url/+id+', {})
-  return this.http.delete('${this.url}/{sumadda}');
+  return this.http.delete('${this.url}/{id}');
   }
   
 }
