@@ -12,7 +12,7 @@ import {  Idiiwaanka } from '../diiwaanka';
 export class LiiskaDiiwaankaComponent implements OnInit {
   pageTitle = 'Liiska Diiwaanka '; 
  //diiwaanka =[];
-diiwaanada : Idiiwaanka[]= []
+Liiska : Idiiwaanka[]= []
   mareentaService = inject(MareentaService )
 //diiwaanka: any;
 
@@ -23,7 +23,8 @@ diiwaanada : Idiiwaanka[]= []
 
   getLiiskaDiiwaanka(){
     return this.mareentaService.getDiiwaankoodhan().subscribe((Idiiwaanka)=> {
-    this.diiwaanada= Idiiwaanka;
+    this.Liiska= Idiiwaanka;
+    console.table(this.Liiska)
     })
   }
 
