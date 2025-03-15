@@ -3,54 +3,63 @@
     {
       "sumadda": 100,
       "magaca": "Cali",
+      "magacaAabo":"yuusuf",
       "adreeska": "Hodan",
       "shaqada": "fuundi"
     },
     {
       "sumadda": 200,
       "magaca": "Cabdi",
+      "magacaAabo":"Xasax",
       "adreeska": "Waabari",
       "shaqada": "faryaamo"
     },
     {
       "sumadda": 300,
       "magaca": "Yuusuf",
+        "magacaAabo":"Iimaan",
       "adreeska": "Wadajir",
       "shaqada": "makaanik"
     },
     {
       "sumadda": 400,
       "magaca": "Faadumo",
+      "magacaAabo":"Cisamaan",
       "adreeska": "XamarWayne",
       "shaqada": "dahable"
     },
     {
       "sumadda": 500,
       "magaca": "Maryan",
+      "magacaAabo":"Colaad",
       "adreeska": "HowlWadaag",
       "shaqada": "dukaanle"
     },
     {
       "sumadda": 600,
       "magaca": "muuse",
+      "magacaAabo":"muumin",
       "adreeska": "dharkeenleey",
       "shaqada": "kawaanle"
     },
     {
       "sumadda": 700,
       "magaca": "awees",
+      "magacaAabo":"muudeey",
       "adreeska": "shingaani",
       "shaqada": "xarqaanle"
     },
     {
       "sumadda": 800,
       "magaca": "cadirashiid",
+      "magacaAabo":"Cabduraxmaan",
       "adreeska": "wardhiigleey",
       "shaqada": "dilaal"
     },
     {
       "sumadda": 900,
       "magaca": "xuseen",
+      "magacaAabo":"Yacquub",
       "adreeska": "kaaraan",
       "shaqada": "dhaqtar"
     },
@@ -58,6 +67,7 @@
     {
       "sumadda": 1000,
       "magaca": "daahir",
+      "magacaAabo":"Idris",
       "adreeska": "boondheere",
       "shaqada": "dabato"
     }
