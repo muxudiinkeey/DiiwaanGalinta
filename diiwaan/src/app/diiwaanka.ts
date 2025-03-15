@@ -1,6 +1,6 @@
 export interface Idiiwaanka {
 
-    sumadda: number;
+    id: number;
     magaca : string;
     magacaAabo:string;
     adreeska: string;
