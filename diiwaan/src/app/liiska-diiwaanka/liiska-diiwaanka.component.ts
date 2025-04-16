@@ -15,10 +15,10 @@ export class LiiskaDiiwaankaComponent implements OnInit {
  
 Liiska : Idiiwaanka[]= []
   mareenta = inject(MareentaService );
-  router= inject(Router);
-activate= inject(ActivatedRoute)
+  
 
-id: any;
+
+
 
   ngOnInit(): void {
       this.getLiiskaDiiwaanka();

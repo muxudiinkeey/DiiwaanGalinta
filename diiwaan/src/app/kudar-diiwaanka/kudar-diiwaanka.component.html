@@ -4,7 +4,7 @@
       <h5>Diiwaan Galin</h5>
     </div>
     <div class="card-body">
-      <form>
+      <form [formGroup]="diiwaanGali" (ngSubmit)="xarayso()">
       <div class="row">
         <div class="col-4">
           <label for="">summadda</label>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-6 text-center">
-          <button class="btn btn-success">xarayso</button>
+          <button class="btn btn-success" (click)="xarayso()">xarayso</button>
         </div>
       </div>
     </div>
