@@ -1,8 +1,7 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { Idiiwaanka } from '../diiwaanka';
-import { Kudardiiwaanka } from './kudardiiwaanka';
 import { MareentaService } from '../liiska-diiwaanka/mareenta.service';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
@@ -16,6 +15,7 @@ export class KudarDiiwaankaComponent implements OnInit {
   diiwaanGali:FormGroup|any;
 mareenta = inject(MareentaService);
 router= inject(Router);
+activateRoute= inject(ActivatedRoute)
 formbuilder= inject (FormBuilder)
 
 
@@ -31,18 +31,25 @@ ngOnInit(): void {
 
 diiwaanGaliFoomka(){
 console.log(this.diiwaanGali.value);
-this.diiwaanGali.reset();
-this.router.navigate(['liiskaDiiwaanka'])
+
+this.activateRoute.paramMap.subscribe(((params)=>{
+  return this.activateRoute.params;
+}))
+
 }
 
   kudarDiiwaanka(){
-    this.router.navigateByUrl('liiskaDiiwaanka')
+    this.router.navigate(["/liiskaDiiwaanka"])
   }
 
-xarayso(){
+xaraysoDiiwaanka(){
+
+    console.log(this.diiwaanGali.value);
+  }
+    
   
 }
   
 
 
-}
+

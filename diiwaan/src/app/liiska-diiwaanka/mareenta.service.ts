@@ -18,6 +18,9 @@ getDiiwaankoodhan(){
   getHalDiiwaan(id: number){
     return this.http.get<Idiiwaanka>('${this.url}/${id}');
   }
+  xarayso(id: number){
+    return this.http.get<Idiiwaanka>('${this.url}/${id}');
+  }
 /*
   deleteDiiwaan(sumadda: number){
   // return this.http.delete('this.url/+id+', {})

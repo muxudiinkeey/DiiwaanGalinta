@@ -4,23 +4,23 @@
       <h5>Diiwaan Galin</h5>
     </div>
     <div class="card-body">
-      <form [formGroup]="diiwaanGali" (ngSubmit)="xarayso()">
+      <form [formGroup]="diiwaanGali" (ngSubmit)="xaraysoDiiwaanka()">
       <div class="row">
         <div class="col-4">
           <label for="">summadda</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" placeholder="summadda" formControlName="summadda" />
         </div>
         <div class="col-8">
           <label for="">magaca</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" placeholder="qor magaca" formControlName="magaca" />
         </div>
         <div class="col-12">
           <label for="">adreeska</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" placeholder="qor adreeska" formControlName="adreeska" />
         </div>
         <div class="col-12">
           <label for="">shaqada</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" placeholder=" qor shaqada" formControlName="shaqada" />
         </div>
       </div>
     </form>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="col-6 text-center">
-          <button class="btn btn-success" (click)="xarayso()">xarayso</button>
+          <button class="btn btn-success" (click)="xaraysoDiiwaanka()">xarayso</button>
         </div>
       </div>
     </div>
