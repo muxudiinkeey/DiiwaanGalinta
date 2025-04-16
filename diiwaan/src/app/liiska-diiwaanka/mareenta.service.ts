@@ -15,10 +15,10 @@ export class MareentaService {
 getDiiwaankoodhan(){
     return this.http.get<Idiiwaanka[]>(this.url);
   }
-/*   getHalDiiwaan(id: number){
-    return this.http.get<Idiiwaanka>(this.url);
+  getHalDiiwaan(id: number){
+    return this.http.get<Idiiwaanka>('${this.url}/${id}');
   }
-
+/*
   deleteDiiwaan(sumadda: number){
   // return this.http.delete('this.url/+id+', {})
   return this.http.delete('${this.url}/{id}');

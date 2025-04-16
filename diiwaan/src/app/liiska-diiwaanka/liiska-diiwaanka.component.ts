@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { MareentaService } from './mareenta.service';
 import {  Idiiwaanka } from '../diiwaanka';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-liiska-diiwaanka',
@@ -12,12 +12,13 @@ import { Router } from '@angular/router';
 })
 export class LiiskaDiiwaankaComponent implements OnInit {
   pageTitle = 'Liiska Diiwaanka '; 
- //diiwaanka =[];
+ 
 Liiska : Idiiwaanka[]= []
   mareenta = inject(MareentaService );
   router= inject(Router);
-//diiwaanka: any;
+activate= inject(ActivatedRoute)
 
+id: any;
 
   ngOnInit(): void {
       this.getLiiskaDiiwaanka();
@@ -29,8 +30,6 @@ Liiska : Idiiwaanka[]= []
     console.table(this.Liiska)
     })
   }
-  kudar(){
- this.router.navigateByUrl('kudarDiiwaanka');
-  }
+
 
 }
